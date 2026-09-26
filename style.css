@@ -1,12 +1,12 @@
 .navbar{
-position: fixed;
-z-index: 1000;
-text-align: center;
 background-color: #333;
 font-size: 1.2em;
 padding: 1em;
+text-align: center;
+position: fixed;
 width: 100%;
 top: 0;
+z-index: 1000;
 }
 ul{
     list-style: none;
@@ -23,16 +23,18 @@ a{
 }
 .main-content{
     padding-top: 5em;
-        text-align: center;
-
+    
+}
+main section{
+    padding:2em 1em;
+    text-align:center;
 }
 #home{
-     padding: 2em 1em;
     margin-bottom: 0.5em;
     
 }
-h1{
-    font-size: 2em;
+#home h1{
+    font-size: 2.5em;
    
 }
 #home p{
@@ -40,12 +42,11 @@ h1{
     color: #666;
 }
 
-#portfolio{
+.portfolio-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 1em;
-     padding: 2em 1em;
 
 }
 .portfolio-item{
@@ -59,7 +60,7 @@ h1{
     transition: transform 0.3s;
 
 }
-h3{
+.portfolio-item h3{
     font-weight: bold;
     margin-bottom: 0.5em;
 
@@ -75,13 +76,12 @@ color: #666;
 }
 
 .portfolio-item :hover{
-    transform: scale(0.15);
+    transform: scale(1.05);
 }
 #footer{
     background-color: #222;
     color: #fff;
     padding: 2em;
-     padding: 2em 1em;
     text-align: center;
     position: relative;
     bottom: 0;
