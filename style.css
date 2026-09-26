@@ -23,12 +23,11 @@ a{
 }
 .main-content{
     padding-top: 5em;
-     padding: 2em 1em;
-    text-align: center;
+        text-align: center;
 
 }
 #home{
-    
+     padding: 2em 1em;
     margin-bottom: 0.5em;
     
 }
@@ -46,6 +45,7 @@ h1{
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 1em;
+     padding: 2em 1em;
 
 }
 .portfolio-item{
@@ -81,6 +81,7 @@ color: #666;
     background-color: #222;
     color: #fff;
     padding: 2em;
+     padding: 2em 1em;
     text-align: center;
     position: relative;
     bottom: 0;
